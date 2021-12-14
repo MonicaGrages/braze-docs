@@ -10,6 +10,8 @@ tool: Campaigns
 ---
 # API campaigns
 
+These Campaigns are used to track the messages that you send via our API. Unlike most campaigns, you don't specify the message, recipients, or schedule within the Braze UI. Instead, simply create the Campaign with whatever variants you'd like to use, and then pass the keys we generate for you in a call to our API.
+
 > This reference article covers how to generate a `campaign_id` to include in your API calls and how to configure that campaign.
 
 {% alert note %}
